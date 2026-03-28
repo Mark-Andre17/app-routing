@@ -3,7 +3,6 @@ import { Form, Input, Button, Card, message } from 'antd';
 import { UserOutlined, LockOutlined, MailOutlined } from '@ant-design/icons';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from './useAuth';
-import type { RegisterForm } from './types';
 import { CenterLayout } from '@/shared';
 
 export const RegisterPage = () => {
